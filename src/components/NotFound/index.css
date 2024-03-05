@@ -1,0 +1,36 @@
+.not-found-body {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: cemter;
+  justify-content: center;
+  height: 100vh;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 222.79px;
+  color: #ffffff;
+  align-self: center;
+  text-align: center;
+}
+
+.not-found-img {
+  width: 250px;
+  background-color: transparent;
+}
+
+.not-found-heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.not-found-para {
+  font-size: 15px;
+  font-weight: 400;
+}
