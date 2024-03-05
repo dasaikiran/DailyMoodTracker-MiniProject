@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  height: 57px;
+  background: #42404d;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.nav-content-sm {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-heading {
+  width: 132px;
+  height: 48px;
+  top: 4px;
+  left: 16px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffbe38;
+}
+
+.nav-content-lg {
+  display: none;
+}
+
+.menu-button {
+  background-color: transparent;
+  border: 0px solid;
+}
+
+.icon {
+  font-size: 30px;
+  color: white;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.navbar-menu-content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 106px;
+  height: 145px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+.nav-li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.logout-button {
+  width: 100%;
+  padding: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: transparent;
+  border: 2px solid #ffbe38;
+  color: #ffbe38;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+}

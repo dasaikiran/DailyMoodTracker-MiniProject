@@ -1,0 +1,84 @@
+.arrow-container {
+  display: flex;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: 0px solid;
+  cursor: pointer;
+}
+.arrow-icon {
+  font-size: 30px;
+  padding: 0px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.month-para {
+  margin: 0px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #d4cfcf;
+}
+
+.calendar-dates {
+  display: flex;
+  flex-direction: column;
+}
+.days-ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.days-li {
+  width: 46px;
+  height: 30px;
+  text-align: center;
+  color: #d4cfcf;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.dates-ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0px;
+  justify-content: flex-start;
+  margin-top: 15x;
+}
+
+.dates-li {
+  width: 43px;
+  height: 50px;
+  text-align: center;
+  color: #d4cfcf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  background: linear-gradient(
+    145.12deg,
+    rgba(149, 138, 153, 0.21) 1.78%,
+    rgba(158, 157, 157, 0) 125.71%
+  );
+  border-radius: 5px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+}
+
+.dates-para {
+  margin: 0px;
+}
+
+.dates-emoji {
+  width: 20px;
+}

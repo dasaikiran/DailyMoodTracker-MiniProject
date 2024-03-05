@@ -1,0 +1,118 @@
+.home-body-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-height: 100vh;
+  align-items: center;
+  background-position: center;
+}
+
+.emojis-list-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 328px;
+  height: 116px;
+  top: 81px;
+  left: 16px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18.42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 1.38px solid;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+}
+.emoji-ul {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+.emoji-li {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.emoji-para {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.emoji-img {
+  width: 21px;
+}
+
+.calender-container {
+  width: 330px;
+  height: 407px;
+  border-radius: 18.42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.select-container {
+  width: 328px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.emoji-select {
+  height: 40px;
+  background: #42404d;
+  border: 1px solid #7b7c7d;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.day-select {
+  height: 40px;
+  background: #42404d;
+  border: 1px solid #7b7c7d;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.selected-date {
+  text-align: center;
+  color: #ffffff;
+}

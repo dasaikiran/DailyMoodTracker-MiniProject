@@ -1,0 +1,101 @@
+.bg-login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 312px;
+  height: 420px;
+  border-radius: 27.29px;
+  border: 2.05px;
+  background: linear-gradient(
+    142.42deg,
+    rgba(114, 104, 117, 0.21) 1.79%,
+    rgba(117, 116, 117, 0) 100.42%
+  );
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(19, 18, 18, 0.28) 2.05%,
+    rgba(53, 51, 51, 0) 92.82%
+  );
+  box-shadow: 6.821591854095459px 6.821591854095459px 16.371822357177734px 0px
+    #51515166 inset;
+}
+
+.login-heading {
+  width: 227px;
+  height: 48px;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  align-self: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 64px;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-self: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.input {
+  border-radius: 40px;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin-top: 5px;
+}
+.checkbox-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.checkbox-inputs {
+  width: 16px;
+  height: 16px;
+}
+.checkbox-label {
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.login-button {
+  margin-top: 30px;
+  height: 40px;
+  border: 0px solid transparent;
+  background-color: #ffbe38;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.error-msg {
+  color: rgb(186, 35, 35);
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
