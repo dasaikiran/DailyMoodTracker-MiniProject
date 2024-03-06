@@ -50,7 +50,11 @@ class Header extends Component {
                 <li className="nav-li">Reports</li>
               </Link>
               <li>
-                <button onClick={this.onLogout} className="logout-button">
+                <button
+                  type="button"
+                  onClick={this.onLogout}
+                  className="logout-button"
+                >
                   Logout
                 </button>
               </li>
